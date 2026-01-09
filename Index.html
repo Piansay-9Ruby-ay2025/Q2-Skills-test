@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enrollment</h1>
+    </div>
+
+    <h2 class="section-title">Contact Us</h2>
+
+<form id="multiForm" class="contact-form" novalidate>
+  <div class="form-row">
+    <label for="fullName">Full name</label>
+    <input id="fullName" name="fullName" type="text"  placeholder="Joe Doe">
+  </div>
+
+  <div class="form-row">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="joe@example.com">
+  </div>
+
+  <div class="form-row">
+    <label for="phone">Phone</label>
+    <input id="phone" name="phone" type="tel" placeholder="(123) 456-7890">
+  </div>
+
+  <div class="form-row">
+    <label for="birthday">Birthday</label>
+    <input id="birthday" name="birthday" type="date">
+  </div>
+
+  <div class="form-row">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="3" placeholder="Enter your message"></textarea>
+  </div>
+
+  <div class="form-row">
+    <button type="submit" class="btn">Enter</button>
+  </div>
+</form>
+
+<div id="formStatus" class="form-status"></div>
+
+</body>
+</html>
+
